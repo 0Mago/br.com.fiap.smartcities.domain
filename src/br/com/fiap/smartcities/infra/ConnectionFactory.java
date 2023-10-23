@@ -9,7 +9,7 @@ public class ConnectionFactory {
 
     public static Connection getConnection() {
         try {
-            return DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "rm95176", "050789");
+            return DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "******", "******");
         } catch (SQLException ex) {
             throw new RuntimeException(ex);
         }
